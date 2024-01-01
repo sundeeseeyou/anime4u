@@ -1,0 +1,20 @@
+<%- include('partials/header.ejs') %>
+
+<body> 
+    <div class="bg-image"></div>
+    <h1 class="text-top">Welcome to Anime 4 You</h1>
+    <main>
+        <section class="result">
+            <img src="<%= locals.image %>">
+            <em><%= locals.title %></em>
+            <p><%= locals.title_eng %></p>
+        </section>
+
+        <h2><%= locals.question %></h2>
+    <form id="myForm" method="post">
+        <input id="random" type="submit" value="GACHA!" formaction="/random">
+    </form>
+    </main>
+
+
+    <%- include('partials/footer.ejs') %>

@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    width: auto;
+    min-height: 100vh;
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: cover;
+    overflow-x: hidden;
+
+
+}
+
+main{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: #3d3d3d;
+    font-size: 3rem;
+    text-align: center;
+    font-family: "Rubik Doodle Shadow", 'Times New Roman', Times, serif;
+    z-index: 2;
+}
+
+h2{
+    font-family: 'Lato', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    color: #3d3d3d;
+    text-align: center;
+
+}
+
+footer{
+    background-color: #3d3d3d;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: "Lato";
+    justify-self: end;
+}
+
+main p{
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    color: #3d3d3d;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+
+input#random{
+    background-color: #f53263;
+    width: 150px;
+    height: 150px;
+    padding: 0 20px;
+    border-radius: 100%;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 900;
+    box-shadow: 0 9px #9e1f3f;
+    cursor: pointer;
+}
+
+input#random:hover{
+    background-color: #e42e5b;
+}
+
+input#random:active {
+    background-color: #e42e5b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    height: auto;
+    padding: 2rem 0;
+}
+
+section{
+    padding: 4rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section.result > img {
+    max-height: 300px;
+    width:  auto;
+}
+
+em{
+    font-size: 1.2rem;
+    color: #3d3d3d;
+    font-weight: bold;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    padding: 2rem 0px;
+}

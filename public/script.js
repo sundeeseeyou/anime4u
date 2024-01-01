@@ -1,0 +1,3 @@
+$("#random").click(() => {
+$(".result").slideUp();
+})
