@@ -4,11 +4,14 @@
     <div class="bg-image"></div>
     <h1 class="text-top">Welcome to Anime 4 You</h1>
     <main>
-        <section class="result">
+        <% if (locals.image) { %>
+          <section class="result">
             <img src="<%= locals.image %>">
-            <em><%= locals.title %></em>
-            <p><%= locals.title_eng %></p>
+            <p>Title: <%= locals.title_jp %></p>
+            <p class="italic">Romaji: <%= locals.title %></p>
+            <p>Rating:  <%= rating %> out of 10</p>
         </section>
+        <% } %>      
 
         <h2><%= locals.question %></h2>
     <form id="myForm" method="post">

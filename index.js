@@ -20,7 +20,8 @@ app.post("/random", async (req,res) => {
 
             image : result.images.jpg.large_image_url,
             title: result.title,
-            title_eng: result.title_japanese,
+            title_jp: result.title_japanese,
+            rating: result.score,
             question: "Not satisfy?"
         
         });

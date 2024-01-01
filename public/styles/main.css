@@ -5,7 +5,6 @@ body{
     align-items: center;
     justify-items: center;
     width: auto;
-    min-height: 100vh;
     background-image: url(../images/bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -16,11 +15,11 @@ body{
 }
 
 main{
-    min-height: 100vh;
     width: 100vw;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
 }
 
@@ -46,7 +45,7 @@ footer{
     text-align: center;
     color: white;
     font-family: "Lato";
-    justify-self: end;
+    align-self: end;
 }
 
 main p{
@@ -103,10 +102,6 @@ section.result > img {
     width:  auto;
 }
 
-em{
-    font-size: 1.2rem;
-    color: #3d3d3d;
-    font-weight: bold;
-    font-family: "Lato", Arial, Helvetica, sans-serif;
-    padding: 2rem 0px;
+p.italic {
+    font-style: italic;
 }
