@@ -1,3 +1,1 @@
-$("#random").click(() => {
-$(".result").slideUp();
-})
+console.log("success");
