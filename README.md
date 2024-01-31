@@ -11,6 +11,11 @@ First initiate the node modules
 
 `npm i`
 
+| Id | Name | Class | Age |
+| --- | --- | --- | --- |
+| 1 | Indah | 7C | 13 |
+
+
 [Click here](https://google.com)
 
 - [x] Living
